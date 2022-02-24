@@ -31,7 +31,8 @@ def area_of_rectangle(height, width = None):
     """
     if width:
         width = height
-    area = height * width
+   # import pdb; pdb.set_trace()
+    area = int(height) * int(width)
     return area
 
 if __name__ == '__main__':
